@@ -30,7 +30,7 @@ try{
     checkNumber(0);
     checkNumber(101);
     checkNumber(-50);
-    checkNumber(hello);
+    checkNumber('hello');
 }catch (error){
     console.log('Invalid entry. Please enter score between 0-100.');
 }
